@@ -1,6 +1,30 @@
-body {
+/*body {
     background-color: #E6ECF0;
     color: #1975A3;
     font-family: Futura;
     text-align: center;
+}*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Futura;
 }
+body {
+    background-color: #a0afac;
+    color: #485452;
+    font-family: 'Calisto MT';
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.name {
+    background-color: #d6dcdb;
+    padding: 2%;
+}
+#my-photo img{
+    width: 100%;
+}
+
+
