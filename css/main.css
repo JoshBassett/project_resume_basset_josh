@@ -55,6 +55,16 @@ header {
 #skills li, #interests li {
     list-style-type: none;
 }
+#education {
+    background-color: #869995;
+}
+#skills {
+    background-color: #6c807c;
+    color: #d6dcdb;
+}
+#skills h1, #skills h2, #skills h3 {
+    color: #485452;
+}
 /*#skills div {
     float: left;
     width: 35%;
