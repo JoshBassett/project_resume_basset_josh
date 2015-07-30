@@ -24,7 +24,7 @@ body {
     color: #485452;
     font-family: 'Calisto MT';
     font-size: 1em;
-    text-align: center;
+/*    text-align: center;*/
     margin: auto;
 }
 .container {
@@ -44,13 +44,24 @@ header {
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
+    font-size: .6em;
 }
 #my-photo img{
-    width: 80%;
-    padding-top: 5%
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin:auto;
 }
 #skills li, #interests li {
     list-style-type: none;
 }
+/*#skills div {
+    float: left;
+    width: 35%;
+    margin: auto;
+}
 
-
+#certifications {
+    clear: left;
+    margin-top: 5%;
+}*/
