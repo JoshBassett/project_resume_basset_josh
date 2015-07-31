@@ -4,12 +4,6 @@
     border:0;
 }
 
-/*body {
-    background-color: #E6ECF0;
-    color: #1975A3;
-    font-family: Futura;
-    text-align: center;
-}*/
 h1, h2, h3, h4, h5, h6 {
     font-family: Futura;
 }
@@ -31,7 +25,6 @@ body {
     color: #485452;
     font-family: 'Calisto MT';
     font-size: 1em;
-/*    text-align: center;*/
     margin: auto;
 }
 .container {
@@ -50,6 +43,18 @@ header {
     list-style-type: none;
     display: inline;
     font-size: .8em;
+}
+nav {
+    background-color: #869995;
+}
+nav li {
+    padding: 1.5%;
+}
+nav a {
+    text-decoration: none;
+    font-family: Futura;
+    color: #485452;
+    font-size: 1.8em;
 }
 #my-photo img{
     width: 100%;
@@ -105,3 +110,9 @@ header {
   font-size: 2em;
   border-radius: 250px 250px 250px 250px;
 }
+
+
+/*nav a:hover {
+    text-decoration: underline;
+    color: #d6dcdb;
+}*/

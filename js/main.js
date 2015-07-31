@@ -1,3 +1,4 @@
 $(function(){
   $.scrollUp();
 });
+smoothScroll.init();
