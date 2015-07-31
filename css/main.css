@@ -62,6 +62,9 @@ nav a {
     display: block;
     margin:auto;
 }
+#work-experience, #education, #skills, #certifications, #interests {
+    padding-bottom: 5%;
+}
 #skills li, #interests li {
     list-style-type: none;
 }
@@ -70,8 +73,8 @@ nav a {
 }
 #skills {
     background-color: #788D89;
-    color: #d6dcdb;
-}
+    /*color: #d6dcdb;
+*/}
 #skills h1, #skills h2, #skills h3 {
     color: #485452;
 }
