@@ -39,6 +39,10 @@ header {
 .contact-info {
     padding-bottom: 1%;
 }
+.contact-info a {
+    text-decoration: none;
+    color: #485452;
+}
 .contact-info li {
     list-style-type: none;
     display: inline;
@@ -108,23 +112,26 @@ nav a {
     width: 1px;
 }
 #scrollUp {
-  bottom: 30px;
-  right: 20px;
-  padding: 40px 40px;
-  background: #555;
-  color: #d6dcdb;
-  opacity: 0.7;
-  text-decoration: none;
-  font-family: futura;
-  font-size: 2em;
-  border-radius: 250px 250px 250px 250px;
-}
-
-
-/*nav a:hover {
-    text-decoration: underline;
+    bottom: 30px;
+    right: 20px;
+    padding: 40px 40px;
+    background: #555;
     color: #d6dcdb;
-}*/
+    opacity: 0.7;
+    text-decoration: none;
+    font-family: futura;
+    font-size: 2em;
+    border-radius: 250px 250px 250px 250px;
+}
+footer {
+    background-color: #869995;
+    padding-top: 1%;
+    text-align: center;
+}
+footer li {
+    padding-left: 1%;
+    padding-right: 1%;
+}
 
 /* Media Queries */
 @media (min-width: 512px) {
