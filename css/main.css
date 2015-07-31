@@ -52,8 +52,8 @@ header {
     font-size: .8em;
 }
 #my-photo img{
-    width: 80%;
-    padding-top: 5%;
+    width: 100%;
+    padding-top: 0%;
     display: block;
     margin:auto;
 }
