@@ -65,6 +65,9 @@ nav a {
 #work-experience, #education, #skills, #certifications, #interests {
     padding-bottom: 5%;
 }
+#work-experience p:last-child {
+    padding-top: 2%;
+}
 #skills li, #interests li {
     list-style-type: none;
 }
