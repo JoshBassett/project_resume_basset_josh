@@ -13,11 +13,18 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: Futura;
 }
-h1,h2 {
+h1 {
+    font-size: 3.6em;
+    padding-top: 5%;
+}
+h2 {
+    font-size: 2.8em;
     padding-top: 5%;
 }
 h3 {
+    font-size: 2em;
     padding-top: 3%;
+    padding-bottom: 1%;
 }
 body {
     background-color: #a0afac;
@@ -33,21 +40,19 @@ body {
 }
 header {
     background-color: #d6dcdb;
-    padding: 2%;
+    padding: 0%;
+    text-align: center;
 }
 .contact-info {
-    margin: auto;
+    padding-bottom: 1%;
 }
 .contact-info li {
     list-style-type: none;
     display: inline;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-    font-size: .6em;
+    font-size: .8em;
 }
 #my-photo img{
-    width: 100%;
+    width: 80%;
     padding-top: 5%;
     display: block;
     margin:auto;
@@ -59,7 +64,7 @@ header {
     background-color: #869995;
 }
 #skills {
-    background-color: #6c807c;
+    background-color: #788D89;
     color: #d6dcdb;
 }
 #skills h1, #skills h2, #skills h3 {
@@ -75,3 +80,6 @@ header {
     clear: left;
     margin-top: 5%;
 }*/
+#interests {
+    background-color: #d6dcdb;
+}
